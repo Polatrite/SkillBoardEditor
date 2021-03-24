@@ -12,6 +12,7 @@
 		"@simonwep/pickr": "^1.5.1",
 		"@tweenjs/tween.js": "^18.5.0",
 		"@types/lodash": "^4.14.149",
+		"cash-dom": "^8.1.0",
 		"ctxmenu": "^1.1.1",
 		"lodash": "^4.17.15",
 		"mousetrap": "^1.6.5",
