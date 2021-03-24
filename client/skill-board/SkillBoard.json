@@ -1,0 +1,13 @@
+[
+	{
+		"skillId": 1,
+		"x": 15456,
+		"y": 15168,
+		"links": [],
+		"name": "SkillBoardEditor",
+		"description": "Welcome to the SkillBoardEditor!",
+		"size": 5,
+		"color": "#ffffff",
+		"payload": []
+	}
+]

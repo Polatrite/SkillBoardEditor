@@ -1,0 +1,45 @@
+{
+	"name": "io-stop",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server/main.ts",
+	"scripts": {
+		"start": "npx parcel serve client/index.html --port 5050"
+	},
+	"author": "Polatrite",
+	"license": "Proprietary",
+	"dependencies": {
+		"@simonwep/pickr": "^1.5.1",
+		"@tweenjs/tween.js": "^18.5.0",
+		"@types/lodash": "^4.14.149",
+		"ctxmenu": "^1.1.1",
+		"lodash": "^4.17.15",
+		"mousetrap": "^1.6.5",
+		"pixi-viewport": "^4.10.0",
+		"pixi.js": "^5.2.0",
+		"vex-dialog": "^1.1.0",
+		"vex-js": "^4.1.0"
+	},
+	"devDependencies": {
+		"parcel-bundler": "^1.12.4",
+		"parcel-plugin-static-files-copy": "^2.3.1",
+		"prettier": "^1.19.1",
+		"ts-node-dev": "^1.0.0-pre.44",
+		"tslint": "^6.0.0",
+		"tslint-config-prettier": "^1.18.0",
+		"typescript": "^3.7.5"
+	},
+	"prettier": {
+		"printWidth": 200,
+		"useTabs": true,
+		"bracketSpacing": true,
+		"semi": false,
+		"trailingComma": "all",
+		"arrowParens": "always",
+		"endOfLine": "lf"
+	},
+	"staticFiles": {
+		"staticPath": "client/assets",
+		"watcherGlob": "**"
+	}
+}

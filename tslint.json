@@ -1,0 +1,29 @@
+{
+	"extends": ["tslint:recommended", "tslint-config-prettier"],
+	"rules": {
+		"variable-name": {
+			"options": [
+				"ban-keywords",
+				"check-format",
+				"allow-leading-underscore",
+				"allow-pascal-case",
+				"allow-snake-case",
+				"require-const-for-all-caps"
+			]
+		},
+		"only-arrow-functions": false,
+		"no-empty": false,
+		"no-console": false,
+		"no-angle-bracket-type-assertion": false,
+		"quotemark": [false, "backtick"],
+		"comment-format": false,
+		"ordered-imports": false,
+		"object-literal-sort-keys": false,
+		"interface-name": false,
+		"member-access": [true, "no-public"],
+		"arrow-return-shorthand": false,
+		"max-classes-per-file": false,
+		"prefer-for-of": false,
+		"no-bitwise": false
+	}
+}
